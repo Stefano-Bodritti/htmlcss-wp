@@ -60,7 +60,8 @@ section.banner img {
   width: 100%;
   height: 500px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 10px;
+  display: block;
 }
 
 .banner .overlay {
@@ -70,7 +71,20 @@ section.banner img {
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.banner .banner-text {
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  bottom: 70px;
+  color: white;
+}
+
+.banner-text h4 {
+  font-size: 29px;
+  font-weight: normal;
 }
 /* fine banner */
 
