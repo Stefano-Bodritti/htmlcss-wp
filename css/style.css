@@ -87,6 +87,7 @@ section.banner img {
   font-weight: normal;
 }
 /* fine banner */
+
 /* titolo sezione */
 section.title {
   padding: 15px 0;
@@ -100,57 +101,42 @@ section.title .subtitle {
   color: #929292;
 }
 /* fine titolo sezione */
+
 /* blocco di 3 colonne */
 section.row {
-  background-color: #0186ff;
   padding: 15px 0;
 }
 
 .row .column {
   float: left;
-  /* height: 500px; */
-  background-color: #abcfe7;
   color: #929292;
-  /* position: relative; */
+  font-size: 14px;
 }
 
-.row .col-left {
-  width: 24%;
+.row .col-left, .row .col-right {
+  width: 19%;
+}
+
+.row .col-center {
+  width: 60%;
+  margin: 0 1%;
 }
 
 .container-img {
   position: relative;
   border-radius: 10px;
-
 }
 
-.row .col-left img {
+.row .column img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
 }
-/* .col-left .overlay {
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 250px;
-  width: 100%;
-  border-radius: 10px;
-} */
-.row .col-center {
-  width: 50%;
-  margin: 0 1%;
-}
-
-.row .col-right {
-  width: 24%;
-}
 
 .row .column h4 {
-  padding: 10px 0;
+  padding: 15px 0;
   font-weight: 600;
 }
 /* fine blocco di 3 colonne */
