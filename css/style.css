@@ -1,19 +1,23 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* font */
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* clearfix */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
+/* layover da applicare alle img */
 .overlay {
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -141,8 +145,14 @@ section.row {
 }
 /* fine blocco di 3 colonne */
 
+/* piè di pagina */
 footer {
-  height: 50px;
-  background-color: #8801fe;
-  margin-top: 5px;
+  margin: 30px;
+  text-align: center;
 }
+
+footer .heart {
+  color: red;
+  font-size: 22px;
+}
+/* piè di pagina */
